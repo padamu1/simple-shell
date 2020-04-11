@@ -4,7 +4,8 @@ Simple_Shell by C
 ### Python code file(.c)
 
 # Preview
-#### int statcheck(char in[100]){ // Determine whether the program is executable and if it is possible to execute the forkstart function
+#### Sample code 
+    int statcheck(char in[100]){ // Determine whether the program is executable and if it is possible to execute the forkstart function
     pid_t pid;
     struct stat fstat_buf;
     int i=0, count=0, j=0;
